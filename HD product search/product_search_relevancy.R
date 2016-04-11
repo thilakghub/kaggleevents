@@ -20,10 +20,16 @@
 #http://www.martinschweinberger.de/blog/part-of-speech-tagging-with-r/
 #java
 #http://www.r-statistics.com/2012/08/how-to-load-the-rjava-package-after-the-error-java_home-cannot-be-determined-from-the-registry/
+#http://stackoverflow.com/questions/28764056/could-not-find-function-tagpos
 
 #grepl for finding a string in another
 #http://stackoverflow.com/questions/30854434/test-two-columns-of-strings-for-match-row-wise-in-r
 #regepxr to locate the string
+
+#issues with corpus
+#http://stackoverflow.com/questions/25069798/r-tm-in-mclapplycontentx-fun-all-scheduled-cores-encountered-errors
+#PlainTextDocument --- not useful --- http://stackoverflow.com/questions/24771165/r-project-no-applicable-method-for-meta-applied-to-an-object-of-class-charact
+#http://stackoverflow.com/questions/18287981/tm-map-has-parallelmclapply-error-in-r-3-0-1-on-mac
 
 #Needed <- c("tm", "SnowballCC", "RColorBrewer", "ggplot2", "wordcloud", "biclust", "cluster", "igraph", "fpc")   
 #install.packages(Needed, dependencies=TRUE)
@@ -32,7 +38,10 @@ library(data.table)
 library(tm)
 library(stringdist)
 library(reshape)
-library(ggplot2)
+library(SnowballC)
+library(openNLP)
+library(NLP)
+# library(ggplot2)
 
 setwd("/Users/z001t72/Documents/General/Kaggle/HD product search/")
 
@@ -44,21 +53,21 @@ prodDesc <- fread("product_descriptions.csv")
 dataMan <- function(dataVar,numTreat){
   review_source <- VectorSource(dataVar)
   corpus <- Corpus(review_source)
+  corpus <- tm_map(corpus, stemDocument, lazy = TRUE)
   corpus <- tm_map(corpus, content_transformer(tolower))
   corpus <- tm_map(corpus, removePunctuation)
   corpus <- tm_map(corpus, removeWords, stopwords("english"))
   #stopwords("english")
   corpus <- tm_map(corpus, removeWords, c("na"))
-  corpus <- tm_map(corpus, stemDocument)
   corpus <- tm_map(corpus, stripWhitespace)
   
   if(numTreat == 1){
     corpus <- tm_map(corpus, removeNumbers)
-    print("fucked the numbers!")
+    # print("fucked the numbers!")
     #corpus <- tm_map(corpus, removeWords, c(" x "))
   }
 
-    dataVar <- data.table(text=unlist(sapply(corpus, `[`, "content")))
+  dataVar <- data.table(text=unlist(sapply(corpus, `[`, "content")))
   return(dataVar)
 }
 
@@ -117,8 +126,14 @@ train <- train[, SP := grepl(gsub(" ","",search_term.n, fixed = TRUE),
                                gsub(" ","",product_title.n, fixed = TRUE)) + 0,
                by = search_term.n]
 
+train$STlen = nchar(train$search_term.n1)
+
+write.csv(train, file = "train_features.csv")
+
+
+#### random checks
 temp <- train[is.na(train$RS) == FALSE & is.infinite(train$RS) == FALSE & train$RS]
-temp$STlen <- nchar(temp$search_term)
+temp$STlen <- nchar(temp$search_term.n1)
 temp$PTlen <- nchar(temp$product_title)
 temp$PTSTlen <- (temp$PTlen - temp$STlen) / temp$PTlen
 temp <- temp[temp$PTSTlen > -0.5 & temp$PTSTlen < 0.5]
@@ -130,5 +145,4 @@ t <- temp[temp$RS > 0.3 & temp$relevance > 2.5]
 t1 <- t[t$SP > 0]
 
 t2 <- temp[temp$SP > 0 & temp$relevance < 2]
-
 #write.csv(t, file = "C:/General/Kaggle/HD product search/check-tp.csv")

@@ -12,6 +12,7 @@
 #cosine similarity:
 #https://blog.nishtahir.com/2015/09/19/fuzzy-string-matching-using-cosine-similarity/
 #http://stackoverflow.com/questions/1746501/can-someone-give-an-example-of-cosine-similarity-in-a-very-simple-graphical-wa
+#http://www.appliedsoftwaredesign.com/archives/cosine-similarity-calculator
 
 #http://alias-i.com/lingpipe/demos/tutorial/stringCompare/read-me.html
 
@@ -21,6 +22,12 @@
 #java
 #http://www.r-statistics.com/2012/08/how-to-load-the-rjava-package-after-the-error-java_home-cannot-be-determined-from-the-registry/
 #http://stackoverflow.com/questions/28764056/could-not-find-function-tagpos
+#http://datascience.stackexchange.com/questions/5316/general-approach-to-extract-key-text-from-sentence-nlp
+#http://stats.stackexchange.com/questions/27292/feature-construction-for-text-mining/133680#133680
+#http://stackoverflow.com/questions/4610974/extracting-adjnounadjnounnoun-prepadjnounnoun-from-text-jus
+#http://www.martinschweinberger.de/blog/part-of-speech-tagging-with-r/
+#most useful: http://stackoverflow.com/questions/30995232/how-to-use-opennlp-to-get-pos-tags-in-r
+#https://pvanb.wordpress.com/2011/03/02/combining-text-from-data-frame-in-one-text-string-in-r/
 
 #grepl for finding a string in another
 #http://stackoverflow.com/questions/30854434/test-two-columns-of-strings-for-match-row-wise-in-r
@@ -30,6 +37,9 @@
 #http://stackoverflow.com/questions/25069798/r-tm-in-mclapplycontentx-fun-all-scheduled-cores-encountered-errors
 #PlainTextDocument --- not useful --- http://stackoverflow.com/questions/24771165/r-project-no-applicable-method-for-meta-applied-to-an-object-of-class-charact
 #http://stackoverflow.com/questions/18287981/tm-map-has-parallelmclapply-error-in-r-3-0-1-on-mac
+
+# random sample
+# http://stackoverflow.com/questions/24685421/how-do-you-extract-a-few-random-rows-from-a-data-table-on-the-fly
 
 #Needed <- c("tm", "SnowballCC", "RColorBrewer", "ggplot2", "wordcloud", "biclust", "cluster", "igraph", "fpc")   
 #install.packages(Needed, dependencies=TRUE)
@@ -46,6 +56,7 @@ library(NLP)
 setwd("/Users/z001t72/Documents/General/Kaggle/HD product search/")
 
 train <- fread("train.csv")
+test <- fread("test.csv")
 prodAttr <- fread("attributes.csv")
 prodDesc <- fread("product_descriptions.csv")
 #str(train)
@@ -122,14 +133,126 @@ train$RS3 <- stringdist(train$search_term.n1, train$product_title.n1, method = "
 train$RS4 <- stringdist(train$search_term.n1, train$Bullet.n1, method = "cosine")
 train <- transform(train, RS = pmin(RS1, RS2, RS3, RS4, na.rm = TRUE))
 
+train$RS1 <- ifelse(is.infinite(train$RS1) == TRUE, 1, train$RS1)
+train$RS2 <- ifelse(is.infinite(train$RS2) == TRUE, 1, train$RS2)
+train$RS3 <- ifelse(is.infinite(train$RS3) == TRUE, 1, train$RS3)
+train$RS4 <- ifelse(is.infinite(train$RS4) == TRUE, 1, train$RS4)
+train$RS <- ifelse(is.infinite(train$RS) == TRUE, 1, train$RS)
+
 train <- train[, SP := grepl(gsub(" ","",search_term.n, fixed = TRUE),
                                gsub(" ","",product_title.n, fixed = TRUE)) + 0,
                by = search_term.n]
 
 train$STlen = nchar(train$search_term.n1)
+train <- train[, max.RS := max(RS), by=search_term]
+train <- train[, min.RS := min(RS), by=search_term]
+train <- train[, avg.RS := mean(RS), by=search_term]
 
-write.csv(train, file = "train_features.csv")
+# write.csv(train, file = "train_features.csv")
 
+# model training
+# trainsub <- train[,c("RS1","RS2","RS3","RS4","RS","SP","STlen","relevance"), with = F]
+# trainsub <- train[,c("product_uid","RS1","RS2","RS3","RS4","SP","STlen","relevance"), with = F]
+trainsub <- train[,c("product_uid","RS1","RS2","RS3","RS4","RS","max.RS","min.RS","avg.RS","SP","STlen","relevance"), with = F]
+
+trainsub$RS1 <- as.numeric(trainsub$RS1)
+trainsub$RS2 <- as.numeric(trainsub$RS2)
+trainsub$RS3 <- as.numeric(trainsub$RS3)
+trainsub$RS4 <- as.numeric(trainsub$RS4)
+trainsub$RS <- as.numeric(trainsub$RS)
+trainsub$max.RS <- as.numeric(trainsub$max.RS)
+trainsub$min.RS <- as.numeric(trainsub$min.RS)
+trainsub$avg.RS <- as.numeric(trainsub$avg.RS)
+trainsub$SP <- as.numeric(trainsub$SP)
+trainsub$STlen <- as.numeric(trainsub$STlen)
+
+set.seed(1234)
+trainsub$ind <- 1:nrow(trainsub)
+trainsub70 <- trainsub[sample(0.7*.N)]
+diff1 <- data.table(setdiff(trainsub$ind,trainsub70$ind))
+setnames(diff1,"V1","ind")
+trainsub30 <- merge(trainsub,diff1,by=c("ind"),all.y = T)
+trainsub70[,ind:=NULL]
+trainsub30[,ind:=NULL]
+
+train_op <- as.matrix(trainsub70$relevance)
+# train_ip <- model.matrix(~RS1+RS2+RS3+RS4+RS+SP+STlen, data = trainsub70)
+# train_ip <- model.matrix(~RS1+RS2+RS3+RS4+SP+STlen, data = trainsub70)
+train_ip <- model.matrix(~RS1+RS2+RS3+RS4+RS+max.RS+min.RS+avg.RS+SP+STlen, data = trainsub70)
+
+set.seed(123)
+xgb <- xgboost(data = train_ip,
+               label = train_op, 
+               eta = 0.05,
+               max_depth = 15, 
+               nround=500, 
+               subsample = 0.5,
+               colsample_bytree = 0.75,
+               seed = 1,
+               gamma = 0,
+               eval_metric = "rmse",
+               objective = "reg:linear",
+               #num_class = 30,
+               nthread = 3
+)
+
+train_op_pred <- predict(object=xgb,newdata=train_ip,missing = NaN)
+
+SSRes_train <- sum((train_op-train_op_pred)^2)
+MSE_train <- SSRes_train/length(train_op_pred)
+MSE_train
+SST_train <- sum((train_op-mean(train_op))^2)
+RSq_train <- 1 - (SSRes_train/SST_train)
+RSq_train
+trainsub70$pred <- train_op_pred
+
+# test_ip <- model.matrix(~RS1+RS2+RS3+RS4+RS+SP+STlen, data = trainsub30)
+# test_ip <- model.matrix(~RS1+RS2+RS3+RS4+SP+STlen, data = trainsub30)
+test_ip <- model.matrix(~RS1+RS2+RS3+RS4+RS+max.RS+min.RS+avg.RS+SP+STlen, data = trainsub30)
+test_op <- as.matrix(trainsub30$relevance)
+
+test_op_pred <- predict(object=xgb,newdata=test_ip,missing = NaN)
+SSRes_test <- sum((test_op-test_op_pred)^2)
+MSE_test <- SSRes_test/length(test_op_pred)
+MSE_test
+SST_test <- sum((test_op-mean(test_op))^2)
+RSq_test <- 1 - (SSRes_test/SST_test)
+RSq_test
+trainsub30$pred <- test_op_pred
+
+train$pred <- train_op_pred
+write.csv(train, file = "check-op.csv")
+
+
+
+
+
+
+
+tagPOS <-  function(x, ...) {
+  s <- as.String(x)
+  word_token_annotator <- Maxent_Word_Token_Annotator()
+  a2 <- Annotation(1L, "sentence", 1L, nchar(s))
+  a2 <- annotate(s, word_token_annotator, a2)
+  a3 <- annotate(s, Maxent_POS_Tag_Annotator(), a2)
+  a3w <- a3[a3$type == "word"]
+  POStags <- unlist(lapply(a3w$features, `[[`, "POS"))
+  POStagged <- paste(sprintf("%s/%s", s[a3w], POStags), collapse = " ")
+  list(POStagged = POStagged, POStags = POStags)
+}
+
+extractPOS <- function(x, thisPOSregex) {
+  x <- as.String(x)
+  wordAnnotation <- annotate(x, list(Maxent_Sent_Token_Annotator(), Maxent_Word_Token_Annotator()))
+  POSAnnotation <- annotate(x, Maxent_POS_Tag_Annotator(), wordAnnotation)
+  POSwords <- subset(POSAnnotation, type == "word")
+  tags <- sapply(POSwords$features, '[[', "POS")
+  thisPOSindex <- grep(thisPOSregex, tags)
+  # tokenizedAndTagged <- sprintf("%s/%s", x[POSwords][thisPOSindex], tags[thisPOSindex])
+  tokenizedAndTagged <- sprintf("%s", x[POSwords][thisPOSindex])
+  untokenizedAndTagged <- paste(tokenizedAndTagged, collapse = " ")
+  untokenizedAndTagged
+}
 
 #### random checks
 temp <- train[is.na(train$RS) == FALSE & is.infinite(train$RS) == FALSE & train$RS]
@@ -146,3 +269,7 @@ t1 <- t[t$SP > 0]
 
 t2 <- temp[temp$SP > 0 & temp$relevance < 2]
 #write.csv(t, file = "C:/General/Kaggle/HD product search/check-tp.csv")
+
+t <- trainsub30
+t$diff <- t$relevance - t$pred
+

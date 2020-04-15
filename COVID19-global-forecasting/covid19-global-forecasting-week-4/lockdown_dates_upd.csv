@@ -1,0 +1,315 @@
+Country_Region,Province_State,Lockdown_date,Country_State,Stringency_Date
+Afghanistan,,2020-03-27,Afghanistan ,2020-03-24
+Albania,,2020-03-10,Albania ,2020-03-12
+Algeria,,2020-03-12,Algeria ,2020-03-20
+Andorra,,2020-03-16,Andorra ,2020-03-25
+Angola,,2020-03-20,Angola ,2020-03-25
+Antigua and Barbuda,,2020-03-10,Antigua and Barbuda ,
+Argentina,,2020-03-20,Argentina ,2020-03-16
+Armenia,,2020-03-16,Armenia ,
+Australia,Australian Capital Territory,2020-03-16,Australia Australian Capital Territory,2020-03-22
+Australia,New South Wales,2020-03-16,Australia New South Wales,2020-03-22
+Australia,Northern Territory,2020-03-24,Australia Northern Territory,2020-03-22
+Australia,Queensland,2020-04-02,Australia Queensland,2020-03-22
+Australia,South Australia,2020-03-22,Australia South Australia,2020-03-22
+Australia,Tasmania,2020-03-19,Australia Tasmania,2020-03-22
+Australia,Victoria,2020-03-16,Australia Victoria,2020-03-22
+Australia,Western Australia,2020-03-15,Australia Western Australia,2020-03-22
+Austria,,2020-03-16,Austria ,2020-03-12
+Azerbaijan,,2020-03-10,Azerbaijan ,
+Bahamas,,2020-03-10,Bahamas ,
+Bahrain,,2020-03-10,Bahrain ,2020-03-26
+Bangladesh,,2020-03-10,Bangladesh ,2020-03-19
+Barbados,,2020-03-10,Barbados ,2020-03-25
+Belarus,,2020-03-10,Belarus ,
+Belgium,,2020-03-18,Belgium ,2020-03-14
+Belize,,2020-03-10,Belize ,2020-03-20
+Benin,,2020-03-10,Benin ,
+Bhutan,,2020-03-10,Bhutan ,
+Bolivia,,2020-03-10,Bolivia ,2020-03-14
+Bosnia and Herzegovina,,2020-03-10,Bosnia and Herzegovina ,2020-03-17
+Botswana,,2020-03-10,Botswana ,2020-03-20
+Brazil,,2020-03-24,Brazil ,2020-03-15
+Brunei,,2020-03-10,Brunei ,2020-03-13
+Bulgaria,,2020-03-10,Bulgaria ,2020-03-13
+Burkina Faso,,2020-03-10,Burkina Faso ,2020-03-16
+Burma,,2020-03-10,Burma ,
+Burundi,,2020-03-10,Burundi ,
+Cabo Verde,,2020-03-10,Cabo Verde ,
+Cambodia,,2020-03-10,Cambodia ,
+Cameroon,,2020-03-10,Cameroon ,2020-03-18
+Canada,Alberta,2020-03-20,Canada Alberta,2020-03-18
+Canada,British Columbia,2020-03-20,Canada British Columbia,2020-03-18
+Canada,Manitoba,2020-03-20,Canada Manitoba,2020-03-18
+Canada,New Brunswick,2020-03-20,Canada New Brunswick,2020-03-18
+Canada,Newfoundland and Labrador,2020-03-20,Canada Newfoundland and Labrador,2020-03-18
+Canada,Northwest Territories,2020-03-20,Canada Northwest Territories,2020-03-18
+Canada,Nova Scotia,2020-03-20,Canada Nova Scotia,2020-03-18
+Canada,Ontario,2020-03-20,Canada Ontario,2020-03-18
+Canada,Prince Edward Island,2020-03-20,Canada Prince Edward Island,2020-03-18
+Canada,Quebec,2020-03-20,Canada Quebec,2020-03-18
+Canada,Saskatchewan,2020-03-20,Canada Saskatchewan,2020-03-18
+Canada,Yukon,2020-03-20,Canada Yukon,2020-03-18
+Central African Republic,,2020-03-10,Central African Republic ,
+Chad,,2020-03-10,Chad ,2020-03-21
+Chile,,2020-03-10,Chile ,2020-03-18
+China,,2020-01-23,China ,2020-01-26
+China,Anhui,2020-01-23,China Anhui,2020-01-26
+China,Beijing,2020-01-23,China Beijing,2020-01-26
+China,Chongqing,2020-01-23,China Chongqing,2020-01-26
+China,Fujian,2020-01-23,China Fujian,2020-01-26
+China,Gansu,2020-01-23,China Gansu,2020-01-26
+China,Guangdong,2020-01-23,China Guangdong,2020-01-26
+China,Guangxi,2020-01-23,China Guangxi,2020-01-26
+China,Guizhou,2020-01-23,China Guizhou,2020-01-26
+China,Hainan,2020-01-23,China Hainan,2020-01-26
+China,Hebei,2020-01-23,China Hebei,2020-01-26
+China,Heilongjiang,2020-01-23,China Heilongjiang,2020-01-26
+China,Henan,2020-01-23,China Henan,2020-01-26
+China,Hong Kong,2020-03-25,China Hong Kong,2020-01-26
+China,Hubei,2020-01-23,China Hubei,2020-01-26
+China,Hunan,2020-01-23,China Hunan,2020-01-26
+China,Inner Mongolia,2020-01-23,China Inner Mongolia,2020-01-26
+China,Jiangsu,2020-01-23,China Jiangsu,2020-01-26
+China,Jiangxi,2020-01-23,China Jiangxi,2020-01-26
+China,Jilin,2020-01-23,China Jilin,2020-01-26
+China,Liaoning,2020-01-23,China Liaoning,2020-01-26
+China,Macau,2020-01-23,China Macau,2020-01-26
+China,Ningxia,2020-01-23,China Ningxia,2020-01-26
+China,Qinghai,2020-01-23,China Qinghai,2020-01-26
+China,Shaanxi,2020-01-23,China Shaanxi,2020-01-26
+China,Shandong,2020-01-23,China Shandong,2020-01-26
+China,Shanghai,2020-01-23,China Shanghai,2020-01-26
+China,Shanxi,2020-01-23,China Shanxi,2020-01-26
+China,Sichuan,2020-01-23,China Sichuan,2020-01-26
+China,Tianjin,2020-01-23,China Tianjin,2020-01-26
+China,Tibet,2020-01-23,China Tibet,2020-01-26
+China,Xinjiang,2020-01-23,China Xinjiang,2020-01-26
+China,Yunnan,2020-01-23,China Yunnan,2020-01-26
+China,Zhejiang,2020-01-23,China Zhejiang,2020-01-26
+Colombia,,2020-03-24,Colombia ,2020-03-23
+Congo (Brazzaville),,2020-03-10,Congo (Brazzaville) ,
+Congo (Kinshasa),,2020-03-10,Congo (Kinshasa) ,
+Costa Rica,,2020-03-10,Costa Rica ,2020-03-12
+Cote d'Ivoire,,2020-03-10,Cote d'Ivoire ,
+Croatia,,2020-03-10,Croatia ,2020-03-13
+Cuba,,2020-03-10,Cuba ,2020-03-20
+Cyprus,,2020-03-10,Cyprus ,
+Czechia,,2020-03-10,Czechia ,
+Denmark,,2020-03-13,Denmark ,2020-03-11
+Denmark,Faroe Islands,2020-03-10,Denmark Faroe Islands,2020-03-11
+Denmark,Greenland,2020-03-10,Denmark Greenland,2020-03-11
+Diamond Princess,,2020-03-10,Diamond Princess ,
+Djibouti,,2020-03-10,Djibouti ,2020-03-22
+Dominica,,2020-03-10,Dominica ,
+Dominican Republic,,2020-03-10,Dominican Republic ,2020-03-18
+Ecuador,,2020-03-10,Ecuador ,2020-03-15
+Egypt,,2020-03-10,Egypt ,2020-03-19
+El Salvador,,2020-03-10,El Salvador ,2020-03-12
+Equatorial Guinea,,2020-03-10,Equatorial Guinea ,
+Eritrea,,2020-03-10,Eritrea ,
+Estonia,,2020-03-10,Estonia ,2020-03-12
+Eswatini,,2020-03-10,Eswatini ,2020-03-17
+Ethiopia,,2020-03-10,Ethiopia ,
+Fiji,,2020-03-10,Fiji ,
+Finland,,2020-03-16,Finland ,2020-03-18
+France,,2020-03-10,France ,2020-03-16
+France,French Guiana,2020-03-16,France French Guiana,2020-03-16
+France,French Polynesia,2020-03-16,France French Polynesia,2020-03-16
+France,Guadeloupe,2020-03-16,France Guadeloupe,2020-03-16
+France,Martinique,2020-03-16,France Martinique,2020-03-16
+France,Mayotte,2020-03-16,France Mayotte,2020-03-16
+France,New Caledonia,2020-03-16,France New Caledonia,2020-03-16
+France,Reunion,2020-03-16,France Reunion,2020-03-16
+France,Saint Barthelemy,2020-03-16,France Saint Barthelemy,2020-03-16
+France,Saint Pierre and Miquelon,2020-03-16,France Saint Pierre and Miquelon,2020-03-16
+France,St Martin,2020-03-16,France St Martin,2020-03-16
+Gabon,,2020-03-10,Gabon ,
+Gambia,,2020-03-10,Gambia ,2020-03-18
+Georgia,,2020-03-10,Georgia ,
+Germany,,2020-03-20,Germany ,2020-03-18
+Ghana,,2020-03-10,Ghana ,2020-03-17
+Greece,,2020-03-10,Greece ,2020-03-16
+Grenada,,2020-03-10,Grenada ,
+Guatemala,,2020-03-10,Guatemala ,2020-03-15
+Guinea,,2020-03-10,Guinea ,
+Guinea-Bissau,,2020-03-10,Guinea-Bissau ,
+Guyana,,2020-03-10,Guyana ,2020-03-18
+Haiti,,2020-03-10,Haiti ,
+Holy See,,2020-03-10,Holy See ,
+Honduras,,2020-03-10,Honduras ,2020-03-16
+Hungary,,2020-03-10,Hungary ,2020-03-11
+Iceland,,2020-03-10,Iceland ,2020-03-24
+India,,2020-03-24,India ,2020-03-16
+Indonesia,,2020-03-10,Indonesia ,2020-03-13
+Iran,,2020-03-13,Iran ,2020-02-26
+Iraq,,2020-03-22,Iraq ,2020-02-27
+Ireland,,2020-03-16,Ireland ,2020-03-20
+Israel,,2020-03-19,Israel ,2020-03-13
+Italy,,2020-03-10,Italy ,2020-02-23
+Jamaica,,2020-03-10,Jamaica ,
+Japan,,2020-04-10,Japan ,2020-03-02
+Jordan,,2020-03-21,Jordan ,2020-03-18
+Kazakhstan,,2020-03-10,Kazakhstan ,2020-03-16
+Kenya,,2020-03-10,Kenya ,2020-03-15
+"Korea, South",,2020-03-10,"Korea, South ",
+Kosovo,,2020-03-10,Kosovo ,2020-03-13
+Kuwait,,2020-03-10,Kuwait ,2020-03-11
+Kyrgyzstan,,2020-03-10,Kyrgyzstan ,
+Laos,,2020-03-10,Laos ,2020-03-29
+Latvia,,2020-03-10,Latvia ,
+Lebanon,,2020-03-10,Lebanon ,2020-03-12
+Liberia,,2020-03-10,Liberia ,
+Libya,,2020-03-10,Libya ,
+Liechtenstein,,2020-03-10,Liechtenstein ,
+Lithuania,,2020-03-16,Lithuania ,
+Luxembourg,,2020-03-10,Luxembourg ,2020-03-15
+MS Zaandam,,2020-03-10,MS Zaandam ,
+Madagascar,,2020-03-10,Madagascar ,2020-03-21
+Malaysia,,2020-03-16,Malaysia ,2020-03-18
+Maldives,,2020-03-10,Maldives ,
+Mali,,2020-03-10,Mali ,2020-03-19
+Malta,,2020-03-10,Malta ,
+Mauritania,,2020-03-10,Mauritania ,2020-03-27
+Mauritius,,2020-03-10,Mauritius ,2020-03-20
+Mexico,,2020-03-10,Mexico ,2020-03-24
+Moldova,,2020-03-10,Moldova ,
+Monaco,,2020-03-10,Monaco ,
+Mongolia,,2020-03-10,Mongolia ,2020-01-27
+Montenegro,,2020-03-10,Montenegro ,
+Morocco,,2020-03-10,Morocco ,2020-03-19
+Mozambique,,2020-03-10,Mozambique ,2020-03-24
+Namibia,,2020-03-10,Namibia ,2020-03-17
+Nepal,,2020-03-10,Nepal ,
+Netherlands,,2020-03-10,Netherlands ,2020-03-15
+Netherlands,Aruba,2020-03-10,Netherlands Aruba,2020-03-15
+Netherlands,"Bonaire, Sint Eustatius and Saba",2020-03-10,"Netherlands Bonaire, Sint Eustatius and Saba",2020-03-15
+Netherlands,Curacao,2020-03-10,Netherlands Curacao,2020-03-15
+Netherlands,Sint Maarten,2020-03-10,Netherlands Sint Maarten,2020-03-15
+New Zealand,,2020-03-10,New Zealand ,2020-03-23
+Nicaragua,,2020-03-10,Nicaragua ,
+Niger,,2020-03-10,Niger ,2020-03-20
+Nigeria,,2020-03-10,Nigeria ,2020-03-20
+North Macedonia,,2020-03-10,North Macedonia ,
+Norway,,2020-03-12,Norway ,2020-03-12
+Oman,,2020-03-10,Oman ,2020-03-17
+Pakistan,,2020-03-24,Pakistan ,2020-03-13
+Panama,,2020-03-10,Panama ,2020-03-13
+Papua New Guinea,,2020-03-10,Papua New Guinea ,2020-03-24
+Paraguay,,2020-03-20,Paraguay ,2020-03-13
+Peru,,2020-03-15,Peru ,2020-03-12
+Philippines,,2020-03-10,Philippines ,2020-03-02
+Poland,,2020-03-10,Poland ,2020-03-12
+Portugal,,2020-04-02,Portugal ,2020-03-13
+Qatar,,2020-03-09,Qatar ,2020-03-10
+Romania,,2020-03-10,Romania ,2020-03-11
+Russia,,2020-03-29,Russia ,2020-03-16
+Rwanda,,2020-03-10,Rwanda ,2020-03-20
+Saint Kitts and Nevis,,2020-03-10,Saint Kitts and Nevis ,
+Saint Lucia,,2020-03-10,Saint Lucia ,
+Saint Vincent and the Grenadines,,2020-03-10,Saint Vincent and the Grenadines ,
+San Marino,,2020-03-10,San Marino ,
+Saudi Arabia,,2020-03-10,Saudi Arabia ,2020-03-14
+Senegal,,2020-03-10,Senegal ,
+Serbia,,2020-03-10,Serbia ,2020-03-16
+Seychelles,,2020-03-10,Seychelles ,2020-03-22
+Sierra Leone,,2020-03-10,Sierra Leone ,2020-03-31
+Singapore,,2020-03-10,Singapore ,2020-04-08
+Slovakia,,2020-03-10,Slovakia ,
+Slovenia,,2020-03-10,Slovenia ,2020-03-12
+Somalia,,2020-03-10,Somalia ,
+South Africa,,2020-03-10,South Africa ,2020-03-15
+Spain,,2020-03-13,Spain ,2020-03-10
+Sri Lanka,,2020-03-26,Sri Lanka ,2020-03-14
+Sudan,,2020-03-10,Sudan ,
+Suriname,,2020-03-10,Suriname ,
+Sweden,,9999-12-31,Sweden ,2020-04-04
+Switzerland,,2020-03-10,Switzerland ,2020-03-13
+Syria,,2020-03-10,Syria ,2020-03-15
+Taiwan*,,2020-03-10,Taiwan* ,
+Tanzania,,2020-04-10,Tanzania ,2020-03-22
+Thailand,,2020-03-24,Thailand ,2020-03-18
+Timor-Leste,,2020-03-10,Timor-Leste ,
+Togo,,2020-03-10,Togo ,
+Trinidad and Tobago,,2020-03-10,Trinidad and Tobago ,2020-03-16
+Tunisia,,2020-03-22,Tunisia ,2020-03-16
+Turkey,,2020-04-10,Turkey ,2020-03-16
+US,Alabama,2020-04-04,US Alabama,2020-03-17
+US,Alaska,2020-03-28,US Alaska,2020-03-17
+US,Arizona,2020-03-31,US Arizona,2020-03-17
+US,Arkansas,9999-12-31,US Arkansas,2020-03-17
+US,California,2020-03-19,US California,2020-03-17
+US,Colorado,2020-03-26,US Colorado,2020-03-17
+US,Connecticut,2020-03-23,US Connecticut,2020-03-17
+US,Delaware,2020-03-24,US Delaware,2020-03-17
+US,District of Columbia,2020-03-10,US District of Columbia,2020-03-17
+US,Florida,2020-04-02,US Florida,2020-03-17
+US,Georgia,2020-03-14,US Georgia,2020-03-17
+US,Guam,2020-03-10,US Guam,2020-03-17
+US,Hawaii,2020-03-25,US Hawaii,2020-03-17
+US,Idaho,2020-03-25,US Idaho,2020-03-17
+US,Illinois,2020-03-21,US Illinois,2020-03-17
+US,Indiana,2020-03-24,US Indiana,2020-03-17
+US,Iowa,9999-12-31,US Iowa,2020-03-17
+US,Kansas,2020-03-20,US Kansas,2020-03-17
+US,Kentucky,2020-03-26,US Kentucky,2020-03-17
+US,Louisiana,2020-03-23,US Louisiana,2020-03-17
+US,Maine,2020-04-02,US Maine,2020-03-17
+US,Maryland,2020-03-30,US Maryland,2020-03-17
+US,Massachusetts,2020-03-24,US Massachusetts,2020-03-17
+US,Michigan,2020-03-24,US Michigan,2020-03-17
+US,Minnesota,2020-03-27,US Minnesota,2020-03-17
+US,Mississippi,2020-04-03,US Mississippi,2020-03-17
+US,Missouri,2020-04-06,US Missouri,2020-03-17
+US,Montana,2020-03-28,US Montana,2020-03-17
+US,Nebraska,9999-12-31,US Nebraska,2020-03-17
+US,Nevada,2020-04-02,US Nevada,2020-03-17
+US,New Hampshire,2020-03-27,US New Hampshire,2020-03-17
+US,New Jersey,2020-03-21,US New Jersey,2020-03-17
+US,New Mexico,2020-03-24,US New Mexico,2020-03-17
+US,New York,2020-03-22,US New York,2020-03-17
+US,North Carolina,2020-03-30,US North Carolina,2020-03-17
+US,North Dakota,9999-12-31,US North Dakota,2020-03-17
+US,Ohio,2020-03-23,US Ohio,2020-03-17
+US,Oklahoma,2020-03-10,US Oklahoma,2020-03-17
+US,Oregon,2020-03-23,US Oregon,2020-03-17
+US,Pennsylvania,2020-04-02,US Pennsylvania,2020-03-17
+US,Puerto Rico,2020-03-15,US Puerto Rico,2020-03-17
+US,Rhode Island,2020-03-28,US Rhode Island,2020-03-17
+US,South Carolina,2020-04-07,US South Carolina,2020-03-17
+US,South Dakota,9999-12-31,US South Dakota,2020-03-17
+US,Tennessee,2020-03-31,US Tennessee,2020-03-17
+US,Texas,2020-04-02,US Texas,2020-03-17
+US,Utah,2020-03-10,US Utah,2020-03-17
+US,Vermont,2020-03-25,US Vermont,2020-03-17
+US,Virgin Islands,2020-03-10,US Virgin Islands,2020-03-17
+US,Virginia,2020-03-30,US Virginia,2020-03-17
+US,Washington,2020-03-23,US Washington,2020-03-17
+US,West Virginia,2020-03-24,US West Virginia,2020-03-17
+US,Wisconsin,2020-03-25,US Wisconsin,2020-03-17
+US,Wyoming,2020-03-10,US Wyoming,2020-03-17
+Uganda,,2020-03-10,Uganda ,2020-03-20
+Ukraine,,2020-03-25,Ukraine ,2020-03-12
+United Arab Emirates,,2020-03-31,United Arab Emirates ,2020-03-16
+United Kingdom,,2020-03-23,United Kingdom ,2020-03-23
+United Kingdom,Anguilla,2020-03-23,United Kingdom Anguilla,2020-03-23
+United Kingdom,Bermuda,2020-03-23,United Kingdom Bermuda,2020-03-23
+United Kingdom,British Virgin Islands,2020-03-23,United Kingdom British Virgin Islands,2020-03-23
+United Kingdom,Cayman Islands,2020-03-23,United Kingdom Cayman Islands,2020-03-23
+United Kingdom,Channel Islands,2020-03-23,United Kingdom Channel Islands,2020-03-23
+United Kingdom,Falkland Islands (Malvinas),2020-03-23,United Kingdom Falkland Islands (Malvinas),2020-03-23
+United Kingdom,Gibraltar,2020-03-23,United Kingdom Gibraltar,2020-03-23
+United Kingdom,Isle of Man,2020-03-23,United Kingdom Isle of Man,2020-03-23
+United Kingdom,Montserrat,2020-03-23,United Kingdom Montserrat,2020-03-23
+United Kingdom,Turks and Caicos Islands,2020-03-23,United Kingdom Turks and Caicos Islands,2020-03-23
+Uruguay,,2020-03-30,Uruguay ,2020-03-15
+Uzbekistan,,2020-03-23,Uzbekistan ,2020-03-16
+Venezuela,,2020-03-12,Venezuela ,2020-03-16
+Vietnam,,2020-03-16,Vietnam ,2020-02-13
+West Bank and Gaza,,2020-03-10,West Bank and Gaza ,
+Zambia,,2020-03-17,Zambia ,
+Zimbabwe,,2020-03-23,Zimbabwe ,2020-03-23
+Malawi,,2020-03-10,Malawi ,2020-03-23
+Sao Tome and Principe,,2020-03-10,Sao Tome and Principe ,
+South Sudan,,2020-03-10,South Sudan ,2020-03-21
+Western Sahara,,2020-03-10,Western Sahara ,

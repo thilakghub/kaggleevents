@@ -1,0 +1,250 @@
+Country_Region,Province_State,Date,Country_State,StringencyIndex
+Afghanistan,,2020-03-27,Afghanistan ,71.43
+Albania,,2020-03-10,Albania ,
+Algeria,,2020-03-12,Algeria ,33.33
+Andorra,,2020-03-16,Andorra ,0.0
+Angola,,2020-03-20,Angola ,14.29
+Argentina,,2020-03-20,Argentina ,95.24
+Australia,Australian Capital Territory,2020-03-16,Australia Australian Capital Territory,33.33
+Australia,New South Wales,2020-03-16,Australia New South Wales,33.33
+Australia,Victoria,2020-03-16,Australia Victoria,33.33
+Australia,Northern Territory,2020-03-24,Australia Northern Territory,66.67
+Australia,Queensland,2020-04-02,Australia Queensland,71.43
+Australia,South Australia,2020-03-22,Australia South Australia,57.14
+Australia,Tasmania,2020-03-19,Australia Tasmania,47.62
+Australia,Western Australia,2020-03-15,Australia Western Australia,28.57
+Austria,,2020-03-16,Austria ,95.24
+Bahrain,,2020-03-10,Bahrain ,
+Bangladesh,,2020-03-10,Bangladesh ,23.81
+Barbados,,2020-03-10,Barbados ,23.81
+Belgium,,2020-03-18,Belgium ,85.71
+Belize,,2020-03-10,Belize ,14.29
+Bolivia,,2020-03-10,Bolivia ,0.0
+Bosnia and Herzegovina,,2020-03-10,Bosnia and Herzegovina ,28.57
+Botswana,,2020-03-10,Botswana ,19.05
+Brazil,,2020-03-24,Brazil ,76.19
+Brunei,,2020-03-10,Brunei ,28.57
+Bulgaria,,2020-03-10,Bulgaria ,33.33
+Burkina Faso,,2020-03-10,Burkina Faso ,0.0
+Burundi,,2020-03-10,Burundi ,23.81
+Cameroon,,2020-03-10,Cameroon ,0.0
+Canada,Alberta,2020-03-10,Canada Alberta,4.76
+Canada,British Columbia,2020-03-10,Canada British Columbia,4.76
+Canada,Manitoba,2020-03-10,Canada Manitoba,4.76
+Canada,New Brunswick,2020-03-10,Canada New Brunswick,4.76
+Canada,Newfoundland and Labrador,2020-03-10,Canada Newfoundland and Labrador,4.76
+Canada,Northwest Territories,2020-03-10,Canada Northwest Territories,4.76
+Canada,Nova Scotia,2020-03-10,Canada Nova Scotia,4.76
+Canada,Ontario,2020-03-10,Canada Ontario,4.76
+Canada,Prince Edward Island,2020-03-10,Canada Prince Edward Island,4.76
+Canada,Quebec,2020-03-10,Canada Quebec,4.76
+Canada,Saskatchewan,2020-03-10,Canada Saskatchewan,4.76
+Canada,Yukon,2020-03-10,Canada Yukon,4.76
+Chad,,2020-03-10,Chad ,14.29
+Chile,,2020-03-10,Chile ,0.0
+China,,2020-01-23,China ,42.86
+China,Anhui,2020-01-23,China Anhui,42.86
+China,Beijing,2020-01-23,China Beijing,42.86
+China,Chongqing,2020-01-23,China Chongqing,42.86
+China,Fujian,2020-01-23,China Fujian,42.86
+China,Gansu,2020-01-23,China Gansu,42.86
+China,Guangdong,2020-01-23,China Guangdong,42.86
+China,Guangxi,2020-01-23,China Guangxi,42.86
+China,Guizhou,2020-01-23,China Guizhou,42.86
+China,Hainan,2020-01-23,China Hainan,42.86
+China,Hebei,2020-01-23,China Hebei,42.86
+China,Heilongjiang,2020-01-23,China Heilongjiang,42.86
+China,Henan,2020-01-23,China Henan,42.86
+China,Hubei,2020-01-23,China Hubei,42.86
+China,Hunan,2020-01-23,China Hunan,42.86
+China,Inner Mongolia,2020-01-23,China Inner Mongolia,42.86
+China,Jiangsu,2020-01-23,China Jiangsu,42.86
+China,Jiangxi,2020-01-23,China Jiangxi,42.86
+China,Jilin,2020-01-23,China Jilin,42.86
+China,Liaoning,2020-01-23,China Liaoning,42.86
+China,Macau,2020-01-23,China Macau,42.86
+China,Ningxia,2020-01-23,China Ningxia,42.86
+China,Qinghai,2020-01-23,China Qinghai,42.86
+China,Shaanxi,2020-01-23,China Shaanxi,42.86
+China,Shandong,2020-01-23,China Shandong,42.86
+China,Shanghai,2020-01-23,China Shanghai,42.86
+China,Shanxi,2020-01-23,China Shanxi,42.86
+China,Sichuan,2020-01-23,China Sichuan,42.86
+China,Tianjin,2020-01-23,China Tianjin,42.86
+China,Tibet,2020-01-23,China Tibet,42.86
+China,Xinjiang,2020-01-23,China Xinjiang,42.86
+China,Yunnan,2020-01-23,China Yunnan,42.86
+China,Zhejiang,2020-01-23,China Zhejiang,42.86
+China,Hong Kong,2020-03-25,China Hong Kong,71.43
+Colombia,,2020-03-24,Colombia ,59.52
+Costa Rica,,2020-03-10,Costa Rica ,28.57
+Croatia,,2020-03-10,Croatia ,33.33
+Cuba,,2020-03-10,Cuba ,14.29
+Denmark,,2020-03-13,Denmark ,83.33
+Denmark,Faroe Islands,2020-03-10,Denmark Faroe Islands,45.24
+Denmark,Greenland,2020-03-10,Denmark Greenland,45.24
+Djibouti,,2020-03-10,Djibouti ,0.0
+Dominican Republic,,2020-03-10,Dominican Republic ,23.81
+Ecuador,,2020-03-10,Ecuador ,19.05
+Egypt,,2020-03-10,Egypt ,0.0
+El Salvador,,2020-03-10,El Salvador ,28.57
+Estonia,,2020-03-10,Estonia ,9.52
+Eswatini,,2020-03-10,Eswatini ,7.14
+Finland,,2020-03-16,Finland ,47.62
+France,,2020-03-10,France ,47.62
+France,French Guiana,2020-03-16,France French Guiana,61.9
+France,French Polynesia,2020-03-16,France French Polynesia,61.9
+France,Guadeloupe,2020-03-16,France Guadeloupe,61.9
+France,Martinique,2020-03-16,France Martinique,61.9
+France,Mayotte,2020-03-16,France Mayotte,61.9
+France,New Caledonia,2020-03-16,France New Caledonia,61.9
+France,Reunion,2020-03-16,France Reunion,61.9
+France,Saint Barthelemy,2020-03-16,France Saint Barthelemy,61.9
+France,Saint Pierre and Miquelon,2020-03-16,France Saint Pierre and Miquelon,61.9
+France,St Martin,2020-03-16,France St Martin,61.9
+Gambia,,2020-03-10,Gambia ,0.0
+Germany,,2020-03-20,Germany ,59.52
+Ghana,,2020-03-10,Ghana ,4.76
+Greece,,2020-03-10,Greece ,38.1
+Guatemala,,2020-03-10,Guatemala ,42.86
+Guyana,,2020-03-10,Guyana ,4.76
+Honduras,,2020-03-10,Honduras ,14.29
+Hungary,,2020-03-10,Hungary ,28.57
+Iceland,,2020-03-10,Iceland ,14.29
+India,,2020-03-24,India ,90.48
+Indonesia,,2020-03-10,Indonesia ,38.1
+Iran,,2020-03-13,Iran ,71.43
+Iraq,,2020-03-22,Iraq ,90.48
+Ireland,,2020-03-16,Ireland ,23.81
+Israel,,2020-03-19,Israel ,90.48
+Italy,,2020-03-10,Italy ,85.71
+Japan,,2020-04-10,Japan ,
+Jordan,,2020-03-21,Jordan ,100.0
+Kazakhstan,,2020-03-10,Kazakhstan ,0.0
+Kenya,,2020-03-10,Kenya ,19.05
+Kosovo,,2020-03-10,Kosovo ,0.0
+Kuwait,,2020-03-10,Kuwait ,47.62
+Laos,,2020-03-10,Laos ,0.0
+Lebanon,,2020-03-10,Lebanon ,42.86
+Luxembourg,,2020-03-10,Luxembourg ,19.05
+Madagascar,,2020-03-10,Madagascar ,0.0
+Malaysia,,2020-03-16,Malaysia ,42.86
+Mali,,2020-03-10,Mali ,0.0
+Mauritania,,2020-03-10,Mauritania ,9.52
+Mauritius,,2020-03-10,Mauritius ,0.0
+Mexico,,2020-03-10,Mexico ,4.76
+Mongolia,,2020-03-10,Mongolia ,76.19
+Morocco,,2020-03-10,Morocco ,0.0
+Mozambique,,2020-03-10,Mozambique ,0.0
+Namibia,,2020-03-10,Namibia ,4.76
+Netherlands,,2020-03-10,Netherlands ,21.43
+Netherlands,Aruba,2020-03-10,Netherlands Aruba,21.43
+Netherlands,"Bonaire, Sint Eustatius and Saba",2020-03-10,"Netherlands Bonaire, Sint Eustatius and Saba",21.43
+Netherlands,Curacao,2020-03-10,Netherlands Curacao,21.43
+Netherlands,Sint Maarten,2020-03-10,Netherlands Sint Maarten,21.43
+New Zealand,,2020-03-10,New Zealand ,28.57
+Nicaragua,,2020-03-10,Nicaragua ,11.9
+Niger,,2020-03-10,Niger ,0.0
+Nigeria,,2020-03-10,Nigeria ,19.05
+Norway,,2020-03-12,Norway ,52.38
+Oman,,2020-03-10,Oman ,23.81
+Pakistan,,2020-03-24,Pakistan ,100.0
+Panama,,2020-03-10,Panama ,19.05
+Papua New Guinea,,2020-03-10,Papua New Guinea ,28.57
+Paraguay,,2020-03-20,Paraguay ,85.71
+Peru,,2020-03-15,Peru ,57.14
+Philippines,,2020-03-10,Philippines ,76.19
+Poland,,2020-03-10,Poland ,33.33
+Portugal,,2020-04-02,Portugal ,80.95
+Qatar,,2020-03-09,Qatar ,42.86
+Romania,,2020-03-10,Romania ,38.1
+Russia,,2020-03-29,Russia ,71.43
+Rwanda,,2020-03-10,Rwanda ,0.0
+Saudi Arabia,,2020-03-10,Saudi Arabia ,47.62
+Serbia,,2020-03-10,Serbia ,19.05
+Seychelles,,2020-03-10,Seychelles ,28.57
+Sierra Leone,,2020-03-10,Sierra Leone ,0.0
+Singapore,,2020-03-10,Singapore ,33.33
+Slovenia,,2020-03-10,Slovenia ,42.86
+South Africa,,2020-03-10,South Africa ,19.05
+Spain,,2020-03-13,Spain ,61.9
+Sri Lanka,,2020-03-26,Sri Lanka ,95.24
+Sudan,,2020-03-10,Sudan ,
+Switzerland,,2020-03-10,Switzerland ,23.81
+Syria,,2020-03-10,Syria ,28.57
+Tanzania,,2020-04-10,Tanzania ,45.24
+Thailand,,2020-03-24,Thailand ,61.9
+Trinidad and Tobago,,2020-03-10,Trinidad and Tobago ,23.81
+Tunisia,,2020-03-22,Tunisia ,100.0
+Turkey,,2020-04-10,Turkey ,
+US,Alabama,2020-04-04,US Alabama,76.19
+US,Alaska,2020-03-28,US Alaska,76.19
+US,Montana,2020-03-28,US Montana,76.19
+US,Rhode Island,2020-03-28,US Rhode Island,76.19
+US,Arizona,2020-03-31,US Arizona,76.19
+US,Tennessee,2020-03-31,US Tennessee,76.19
+US,California,2020-03-19,US California,66.67
+US,Colorado,2020-03-26,US Colorado,76.19
+US,Kentucky,2020-03-26,US Kentucky,76.19
+US,Connecticut,2020-03-23,US Connecticut,66.67
+US,Louisiana,2020-03-23,US Louisiana,66.67
+US,Ohio,2020-03-23,US Ohio,66.67
+US,Oregon,2020-03-23,US Oregon,66.67
+US,Washington,2020-03-23,US Washington,66.67
+US,Delaware,2020-03-24,US Delaware,76.19
+US,Indiana,2020-03-24,US Indiana,76.19
+US,Massachusetts,2020-03-24,US Massachusetts,76.19
+US,Michigan,2020-03-24,US Michigan,76.19
+US,New Mexico,2020-03-24,US New Mexico,76.19
+US,West Virginia,2020-03-24,US West Virginia,76.19
+US,District of Columbia,2020-03-10,US District of Columbia,23.81
+US,Guam,2020-03-10,US Guam,23.81
+US,Oklahoma,2020-03-10,US Oklahoma,23.81
+US,Utah,2020-03-10,US Utah,23.81
+US,Virgin Islands,2020-03-10,US Virgin Islands,23.81
+US,Wyoming,2020-03-10,US Wyoming,23.81
+US,Florida,2020-04-02,US Florida,76.19
+US,Maine,2020-04-02,US Maine,76.19
+US,Nevada,2020-04-02,US Nevada,76.19
+US,Pennsylvania,2020-04-02,US Pennsylvania,76.19
+US,Texas,2020-04-02,US Texas,76.19
+US,Georgia,2020-03-14,US Georgia,42.86
+US,Hawaii,2020-03-25,US Hawaii,76.19
+US,Idaho,2020-03-25,US Idaho,76.19
+US,Vermont,2020-03-25,US Vermont,76.19
+US,Wisconsin,2020-03-25,US Wisconsin,76.19
+US,Illinois,2020-03-21,US Illinois,66.67
+US,New Jersey,2020-03-21,US New Jersey,66.67
+US,Kansas,2020-03-20,US Kansas,66.67
+US,Maryland,2020-03-30,US Maryland,76.19
+US,North Carolina,2020-03-30,US North Carolina,76.19
+US,Virginia,2020-03-30,US Virginia,76.19
+US,Minnesota,2020-03-27,US Minnesota,76.19
+US,New Hampshire,2020-03-27,US New Hampshire,76.19
+US,Mississippi,2020-04-03,US Mississippi,76.19
+US,Missouri,2020-04-06,US Missouri,76.19
+US,New York,2020-03-22,US New York,66.67
+US,Puerto Rico,2020-03-15,US Puerto Rico,42.86
+US,South Carolina,2020-04-07,US South Carolina,76.19
+Uganda,,2020-03-10,Uganda ,23.81
+Ukraine,,2020-03-25,Ukraine ,95.24
+United Arab Emirates,,2020-03-31,United Arab Emirates ,95.24
+United Kingdom,,2020-03-23,United Kingdom ,66.67
+United Kingdom,Anguilla,2020-03-23,United Kingdom Anguilla,66.67
+United Kingdom,Bermuda,2020-03-23,United Kingdom Bermuda,66.67
+United Kingdom,British Virgin Islands,2020-03-23,United Kingdom British Virgin Islands,66.67
+United Kingdom,Cayman Islands,2020-03-23,United Kingdom Cayman Islands,66.67
+United Kingdom,Channel Islands,2020-03-23,United Kingdom Channel Islands,66.67
+United Kingdom,Falkland Islands (Malvinas),2020-03-23,United Kingdom Falkland Islands (Malvinas),66.67
+United Kingdom,Gibraltar,2020-03-23,United Kingdom Gibraltar,66.67
+United Kingdom,Isle of Man,2020-03-23,United Kingdom Isle of Man,66.67
+United Kingdom,Montserrat,2020-03-23,United Kingdom Montserrat,66.67
+United Kingdom,Turks and Caicos Islands,2020-03-23,United Kingdom Turks and Caicos Islands,66.67
+Uruguay,,2020-03-30,Uruguay ,64.29
+Uzbekistan,,2020-03-23,Uzbekistan ,88.1
+Venezuela,,2020-03-12,Venezuela ,14.29
+Vietnam,,2020-03-16,Vietnam ,61.9
+Zambia,,2020-03-17,Zambia ,23.81
+Zimbabwe,,2020-03-23,Zimbabwe ,52.38
+Malawi,,2020-03-10,Malawi ,14.29
+South Sudan,,2020-03-10,South Sudan ,9.52
